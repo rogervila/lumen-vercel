@@ -17,6 +17,6 @@ $router->get('/', function () {
     return view('landing');
 });
 
-$router->get('/api/ping', function () {
+$router->get('/ping', function () {
     return ['message' => 'pong'];
 });
